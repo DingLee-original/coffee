@@ -1,0 +1,92 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+}
+/* make sure size are relative */
+:root {
+    /* Deep espresso */
+    --coffee-espresso:   #4B2E2A;
+    /* Dark roast */
+    --coffee-dark-roast: #3A2721;
+    /* Mocha */
+    --coffee-mocha:      #8D6748;
+    /* Caramel latte */
+    --coffee-latte:      #C8A27E;
+    /* Creamy foam */
+    --coffee-foam:       #F2E3C6;
+    /* Sugar cube */
+    --coffee-sugar:      #F5E1A4;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    /* background-color: #8BC6EC; */
+    background: url(/img/coffee2.jpeg);
+
+    /* background-image:linear-gradient(to right, rgba(107, 170, 215, 0.753), rgba(85, 172, 209, 0.597)); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: var(--coffee-latte);
+    opacity: 0.8;
+    color: var(--coffee-espresso);
+    font-family: sans-serif;
+    font-size: medium;
+    width:360px;
+    height:600px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    padding-top:13px;
+}
+.image{
+    position:relative;
+    padding: 0px 15px 0px 15px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+}
+.shade{
+    /* border: 10px solid green; */
+    position:absolute;
+    /* padding: 0px 15px 0px 15px; */
+    border-radius: 20px;
+    top:0;
+    left:15px;
+    width:92%;
+    height:100%;
+    /* background-color: var(--coffee-foam); */
+    opacity: 0.1;
+    display:flex;
+    flex-direction: column;
+}
+.card img{
+    width:100%;
+    height:100%;
+    opacity: 1;
+    /* padding:0px 10px 0px; */
+    /* border: 2px solid pink; */
+    border-radius: 20px;
+    transition: all 2s 0s ease-in-out;
+}
+
+.card:hover img{
+    /* box-shadow: 0 0 36px var(--coffee-espresso); */
+    transform: rotateY(180deg);
+}
+
+.card p {
+    /* border: 2px solid black; */
+    padding:0px 5px 0px 17px;
+    font-size: 1.2em;
+}
+
+.card h1{
+    text-decoration: underline 4px;
+}
+
+
+/* dynamic */

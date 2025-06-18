@@ -1,0 +1,11 @@
+#body{
+    background: #000;
+}
+
+p,footer,article{
+    color:green
+}
+
+.para{
+    background-color: #000 !important;
+}

@@ -1,0 +1,13 @@
+ body{
+            font-family: sans-serif;
+            background: hsl(0, 0%, 0%);
+            color: azure;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            width: 700px;
+            text-align:left;
+        }

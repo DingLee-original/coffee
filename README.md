@@ -1,5 +1,4 @@
-# Coffee World
-don't visit the site 
+# Coffee World 
 <br>
-[redirect me to site](coffee.linearsearch.me)
+[redirect me to site](https://coffee.linearsearch.me)
 <br>
